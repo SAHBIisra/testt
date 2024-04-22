@@ -21,7 +21,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          builder: mybuilder
+          
           tags: |
             username/nginx:01
             username/nginx:latest
