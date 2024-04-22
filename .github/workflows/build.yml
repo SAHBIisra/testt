@@ -20,7 +20,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          push: true
+          file: ./Dockerfile
+          builder: mybuilder
           tags: |
-            first:01
-            first:latest
+            username/nginx:01
+            username/nginx:latest
