@@ -21,4 +21,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: "firstimgg:01, israa12/firstimgg:latest"
+          tags: |
+            first:01
+            first:latest
