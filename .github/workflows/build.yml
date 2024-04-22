@@ -21,4 +21,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: israa12/firstimg:latest
+          tags: israa12/firstimg:01 
+                israa12/firstimg:latest
