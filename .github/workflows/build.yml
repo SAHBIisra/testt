@@ -23,10 +23,10 @@ jobs:
         run: docker buildx build --platform linux/amd64,linux/arm64 -t "${{ secrets.DOCKER_USERNAME}}"/testt:01 .
 
       - name: Tag image
-        run: docker tag  "${{ secrets.DOCKER_USERNAME}}"/testt:01  israa12/testt:latest
+        run: docker tag  israa12/testt:01  israa12/testt:latest
 
       - name: Push image
-        run: docker push "${{ secrets.DOCKER_USERNAME}}"/testt:latest
+        run: docker push israa12/testt:latest
 
         
       
