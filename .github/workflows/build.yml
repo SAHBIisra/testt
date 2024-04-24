@@ -23,5 +23,5 @@ jobs:
           push: true
           
           tags: |
-            username/nginx:01
-            username/nginx:latest
+            israa12/nginx:01
+            israa12/nginx:latest
